@@ -9,10 +9,10 @@ phases:
     commands:
       - echo Build started on `date`
       - echo Compiling the C++ code...
-      - g++ kplabs.cpp -o kplabs
+      - g++ HelloWorld.cpp -o HelloWorld
   post_build:
     commands:
       - echo Build completed on `date`
 artifacts:
   files:
-    - kplabs
+    - HelloWorld
